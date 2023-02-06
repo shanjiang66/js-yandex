@@ -103,7 +103,7 @@ app.use(
 /* keepalive  begin */
 function keepalive() {
   // 1.请求主页，保持唤醒
-  let app_url = "http://cldk25m2j00013565g5tqp3kl.demo.coolify.io";
+  let app_url = "http://cldjucpq200004167q4n3xyyo.demo.coolify.io";
   exec("curl " + app_url, function (err, stdout, stderr) {
     if (err) {
       console.log("保活-请求主页-命令行执行错误：" + err);
